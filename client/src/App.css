@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* note screen styling */
+.card-header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.card-header span {
+  font-size: 1.8rem;
+  color: #000;
+  cursor: pointer;
+}
+
+.card-body h4 {
+  margin-left: -0.8rem;
+}
+
+/* profile comp */
+.profile-img {
+  width: 100%;
+  padding: 20px;
+}
+
+.profile-container {
+  display: flex;
+  margin: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+  .profileContainer {
+    flex-direction: column-reverse;
+  }
+}
